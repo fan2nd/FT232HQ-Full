@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1st_commonly:hole"
+		(property "Footprint" "1st_commonly:NUT_SMD_M2.5_4.5_3.0"
 			(at 220.98 95.25 0)
 			(effects
 				(font
