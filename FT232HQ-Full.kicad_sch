@@ -3984,6 +3984,12 @@
 		(uuid "84766961-b782-4014-a058-4554612eb4c0")
 	)
 	(junction
+		(at 41.91 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c0ea9c-4537-4854-a800-10fc0e524334")
+	)
+	(junction
 		(at 262.89 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4026,6 +4032,12 @@
 		(uuid "e1e27434-2e9d-431a-97be-b10d2d7c1876")
 	)
 	(junction
+		(at 41.91 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e766ac04-6cad-429d-9b2e-3e549166a7ad")
+	)
+	(junction
 		(at 190.5 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4056,6 +4068,16 @@
 	(no_connect
 		(at 60.96 60.96)
 		(uuid "c49d424f-4e99-430a-918b-737019272dbc")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 41.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0112cb98-2b92-4483-bc48-87ca4460d083")
 	)
 	(wire
 		(pts
@@ -4149,6 +4171,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 97.79) (xy 41.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43669b1f-481e-4901-a90a-d1d8bd443007")
+	)
+	(wire
+		(pts
 			(xy 245.11 63.5) (xy 245.11 66.04)
 		)
 		(stroke
@@ -4226,6 +4258,16 @@
 			(type default)
 		)
 		(uuid "70824e35-5655-4965-85d9-9fcb8573c96a")
+	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 35.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727a94c9-760a-4943-a813-e1b64d6d8a97")
 	)
 	(wire
 		(pts
@@ -9297,6 +9339,76 @@
 			(project ""
 				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 35.56 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebc27f39-bcbb-432b-919d-09abb65d443d")
+		(property "Reference" "C6"
+			(at 39.37 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "225"
+			(at 39.37 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 36.5252 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73780cdd-3b07-4366-aeea-cbc7b5b77ec6")
+		)
+		(pin "1"
+			(uuid "fdbf4902-f504-48ff-921d-2af87a93e771")
+		)
+		(instances
+			(project "FT232HQ-Full"
+				(path "/dd4ac3e3-2410-4273-be8c-634c81d8b6b2"
+					(reference "C6")
 					(unit 1)
 				)
 			)
